@@ -21,7 +21,7 @@ There are 2 main folders that make up entire project.
 - `server` folder contains back-end, simple API, which is made in **Python**, **Django** framework in combination with **Django REST**. (SQLite3 only)
 - Also, the project is using Docker.
 
-## Usage
+## Usage:
 
 > **Note**
 >You will need docker, if you want to start this application quick.

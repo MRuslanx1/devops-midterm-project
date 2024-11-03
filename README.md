@@ -41,19 +41,6 @@ To end process, run
 docker-compose down
 ```
 
-**If you don't have docker:**
-
-For the front-end you should have **node** installed.
-
-First, you have to install all the dependencies. For that go into client folder and run there:
-```bash
-npm install
-```
-
-Then you should be able to start React like so:
-```bash
-npm start
-```
 
 For the back-end you will need python and pip, obviously.
 

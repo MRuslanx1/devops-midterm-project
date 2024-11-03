@@ -1,0 +1,40 @@
+# Ignore Git files
+.git
+.gitignore
+
+# Ignore Docker-related files if you don't need them in the build context
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Ignore node_modules (front-end dependencies)
+client/node_modules
+
+# Ignore compiled files and caches
+**/__pycache__
+**/*.pyc
+**/*.pyo
+
+# Ignore temporary files
+*.swp
+*.swo
+*.tmp
+*.log
+
+# Ignore Python virtual environment directory if it's in the project
+venv
+env
+
+# Ignore front-end build artifacts
+client/build
+client/dist
+client/.next
+client/.nuxt
+
+# Ignore local environment variables
+.env
+.env.*
+
+# Ignore media and static files if they're managed separately (e.g., in AWS S3)
+media/
+staticfiles/

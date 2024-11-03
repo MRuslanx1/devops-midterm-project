@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Tajawal:wght@200;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: .2s;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #51b0ef;
+    font-size: 18px;
+}
+
+:root {
+    --color-white: #f0f0f0;
+    --border-radius: 3px;
+    --color-hover: #eaeaea;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    background-color: inherit;
+    border: none;
+}

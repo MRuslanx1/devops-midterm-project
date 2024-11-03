@@ -1,0 +1,48 @@
+.container{
+    width: 100%;
+    margin: 12px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconButton {
+    cursor: pointer;
+    padding: 5px;
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+}
+
+.iconButton:hover {
+    background-color: var(--color-hover);
+}
+
+.actions{
+    display: flex;
+    gap: 4px;
+}
+
+.titleContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.titleSkeleton {
+}
+
+.textSkeleton {
+    margin: 8px 0 4px;
+}
+
+.nextLineTextSkeleton{
+
+}
+
+.title{
+    font-size: 21px;
+    font-weight: 700;
+}

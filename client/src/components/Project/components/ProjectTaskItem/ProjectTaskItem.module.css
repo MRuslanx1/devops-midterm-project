@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    border-radius: var(--border-radius);
+    border-top: 1px solid #e6e6e6;
+}
+
+.container:last-of-type{
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.container:not(.editable){
+    cursor: pointer;
+}
+
+.container:not(.editable):hover{
+    background-color: #e6e6e6;
+}
+
+.actions{
+    display: flex;
+    gap: 8px;
+}
+
+.iconButton {
+    cursor: pointer;
+}
+
+.titleContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.title {
+    font-size: 18px;
+    /* font-weight: 700; */
+}
+
+.desc {
+    /* color: #f1f1f1; */
+}

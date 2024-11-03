@@ -1,0 +1,23 @@
+version: '3'
+services:
+  server:
+    build: ./server
+    container_name: todo-app-server
+    volumes:
+      - ./server/server:/server/server
+      - ./server/todo:/server/todo
+    ports:
+      - "8000:8000"
+  client:
+    build: ./client
+    container_name: todo-app-client
+    volumes:
+      - ./client/src:/client/src
+      - ./client/package.json:/client/package.json
+      - /client/node_modules
+    stdin_open: true
+    tty: true
+    depends_on:
+      - server
+    ports:
+      - "3000:3000"
